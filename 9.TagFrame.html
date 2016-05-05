@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>------</title>
+	<link rel="stylesheet" href="css/Cob.css">
+</head>
+<body>
+	<div class="header_nav">
+		<a href="index.html" class="btnb">Kembali</a>
+	</div>
+	<div class="content">
+		<div class="content_header">
+			<h1>Frame</h1>
+		</div>
+        <br />
+		<div class="content_body">
+			<p>Frame digunakan untuk membagi jendela browser menjadi beberapa bagian terpisah. Masing-masing terdiri dari dokumen HTML tersendiri.</p><br>
+			<p><h2>Tag Frameset</h2></p>
+			<p>Frameset memiliki beberapa atribut</p>
+			<p>
+				<TABLE style="font-size:15pt; width:100%;" border="1">
+                                        <tr align="center">
+                                            <th>Atribut</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                        <tr align="center">
+                                        	<td>ROWS</td>
+                                        	<td>Membuat Frame secara horizontal sekaligus mendefinisikan lebar masing-masing</td>
+                                        </tr>
+                                        <tr align="center">
+                                        	<td>COLS</td>
+                                        	<td>Membuat frame secara vertikal sekaligus mendefinisikan lebar masing-masing.</td>
+                                        </tr>
+                                        <tr align="center">
+                                        	<td>BORDERCOLOR</td>
+                                        	<td>Menentukan warna bingkai Frame</td>
+                                        </tr>
+                                    </table><br>
+			</p>
+			<p>CONTOH:</p>
+			<textarea readonly style="width: 100%; height:550px; font-size:25pt; "><html>
+<head>
+<title>HTML Frames</title>
+</head>
+<frameset rows="10%,80%,10%">
+   <frame name="top" src="frame1.html"/>
+   <frame name="main" src="frame2.html"/>
+   <frame name="bottom" src="frame3.html"/>
+   <noframes>
+   <body>
+      Your browser does not support frames.
+   </body>
+   </noframes>
+</frameset>
+</html></textarea>
+		</div>
+	</div>
+  <div class="content">
+    <div class="content_header">
+      <h1>Tag Frame</h1>
+    </div>
+        <br />
+    <div class="content_body">
+      <p>Tag Frame mempunyai atribut:</p>
+      <p> 
+        <TABLE style="font-size:15pt; width:100%;" border="1">
+                                        <tr align="center">
+                                            <th>Atribut</th>
+                                            <th>Keterangan</th>
+                                        </tr>
+                                        <tr align="center">
+                                          <td>SRC</td>
+                                          <td>Menentukan nama file HTMLyang digunakan sebagai isi frame.</td>
+                                        </tr>
+                                        <tr align="center">
+                                          <td>MARGIN HEIGHT</td>
+                                          <td>Menentukan batas kiri dan kanan antara dokumen dengan bingki dalam pixel.</td>
+                                        </tr>
+                                        <tr align="center">
+                                          <td>SCROLLING</td>
+                                          <td>Menentukan apakaha frame dapat memiliki scroll bar. Nilainya adalah YES, NO, AUTO.</td>
+                                        </tr>
+                                        <tr align="center">
+                                          <td>NORESIZE</td>
+                                          <td>Jika atribut ini disebutkan, frame tidak dapat diubah ukurannya.</td>
+                                        </tr>
+                                        <tr align="center">
+                                          <td>NAME</td>
+                                          <td>Mendefinisikan nama dari objek frame. Nama ini dapat digunakan sebagai tujuan sebuah link.</td>
+                                        </tr>
+                                        <tr align="center">
+                                          <td>BORDER</td>
+                                          <td>Menentukan ukuran bingkai frame</td>
+                                        </tr>
+                                      </table>
+      </p>
+    </div>
+  </div>
+
+<div class="footer_nav">
+		<a href="10.Tabel.html" class="btnb">Selanjutnya</a>
+	</div>
+
+</body>
+</html>
